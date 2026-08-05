@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Kushal Gupta — Full-Stack Developer</title>
+    <meta name="description" content="Full-stack developer with 4+ years building production software in Python, Django and React. APIs serving 50,000+ customers at LTIMindtree, plus self-hosted products and AI agent infrastructure." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://luxidevil.site/" />
+    <meta property="og:title" content="Kushal Gupta — Full-Stack Developer" />
+    <meta property="og:description" content="Python, Django and React. APIs serving 50,000+ customers in production, plus self-hosted products and AI agent infrastructure." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luxidevil.site" />
+    <meta property="og:image" content="https://luxidevil.site/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Kushal Gupta — Full-Stack Developer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kushal Gupta — Full-Stack Developer" />
+    <meta name="twitter:description" content="Python, Django and React. APIs serving 50,000+ customers in production, plus self-hosted products and AI agent infrastructure." />
+    <meta name="twitter:image" content="https://luxidevil.site/og-image.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Person schema. Keep sameAs in sync with profile in src/content/portfolio-data.ts -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kushal Gupta",
+        "url": "https://luxidevil.site/",
+        "jobTitle": "Full-Stack Developer",
+        "email": "mailto:kushalguptait@gmail.com",
+        "worksFor": { "@type": "Organization", "name": "LTIMindtree" },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Shri Ramdeobaba College of Engineering and Management, Nagpur"
+        },
+        "knowsAbout": ["Python", "Django", "React", "PostgreSQL", "REST APIs"],
+        "sameAs": [
+          "https://github.com/luxidevil",
+          "https://www.linkedin.com/in/kushal-gupta-77949118a"
+        ]
+      }
+    </script>
+    <script>
+      /* Apply the persisted theme before first paint so a static load never
+         flashes the wrong theme. Mirrors the next-themes config in App.tsx
+         (storage key "theme", defaultTheme "dark", system enabled). */
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var dark = stored === 'dark' || (stored === 'system' && systemDark) || !stored;
+          if (dark) document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
